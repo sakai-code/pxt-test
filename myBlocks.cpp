@@ -6,7 +6,8 @@
 
 namespace myBlocks
 {
-    //%block
+    //% blockId=device_get_digital_pin block="test $value"
+      //% blockNamespace=myBlocks
     void cToF(float value)   
     {  
 
