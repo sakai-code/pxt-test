@@ -10,7 +10,6 @@
     "files": [
         "main.blocks",
         "README.md",
-        "custom.ts",
         "_locales/ja/README.md",
         "main.ts",
         "myBlocks.cpp"

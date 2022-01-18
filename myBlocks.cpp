@@ -6,8 +6,8 @@
 
 namespace myBlocks
 {
-    //%
-    float cToF(float value)   
+    //%block
+    void cToF(float value)   
     {  
 
     uBit.display.scroll("HELLO WORLD!",50);
