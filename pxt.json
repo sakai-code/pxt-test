@@ -12,7 +12,8 @@
         "README.md",
         "_locales/ja/README.md",
         "main.ts",
-        "myBlocks.cpp"
+        "myBlocks.cpp",
+        "shim.d.ts"
     ],
     "testFiles": [
         "test.ts"
