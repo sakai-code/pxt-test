@@ -8,12 +8,12 @@
         "microphone": "*"
     },
     "files": [
-        "main.blocks",
         "README.md",
         "_locales/ja/README.md",
         "main.ts",
         "myBlocks.cpp",
-        "shims.d.ts"
+        "shims.d.ts",
+        "enums.d.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -25,5 +25,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
