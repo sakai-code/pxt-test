@@ -3,31 +3,23 @@
 
 
 
-//% 
+
 namespace myBlocks
 { 
-   /**
-   *CTOF
-   */
-   //% block 
-   //% help=myBlocks/cToF async
-   //% weight=100
-   //% blockId=CTOF 
-    int ctof( int value)   
+   
+    void ctof( )   
     {  
 
     uBit.display.scroll("HELLO WORLD!",50);
 
     release_fiber();
 
-    return 100
     }
-    /**
+   
 
     
     
-    */
-    //% block
+  
     
     float fToC(float value)
     {   
