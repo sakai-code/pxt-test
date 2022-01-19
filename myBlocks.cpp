@@ -13,7 +13,7 @@ namespace myBlocks
     
     }
 
-
+   //%
     float fToC(float value)
     {   
         return (value - 32.0) / 1.8;
