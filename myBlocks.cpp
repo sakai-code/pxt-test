@@ -1,20 +1,38 @@
 #include "pxt.h"
 
-namespace myBlocks
+
+
+//% icon="\uf03e"
+namespace custom
 {
-  
-   //%
-    void cToF()   
+   /**
+    * @brief 
+    * 
+    * @param value 
+    */
+   //%  help=custom/cToF
+   //% blockid=CTOF
+  //% block
+ 
+    void cToF(float value = 0)   
     {  
 
     uBit.display.scroll("HELLO WORLD!",50);
 
     release_fiber();
-    
+    return;
     }
+  
+   //% block
+   /**
+    * @brief 
+    * 
+    * @param value 
+    * @return float 
+    */
 
-   //%
-    float fToC(float value)
+
+    float fToC(float value = 0)
     {   
         return (value - 32.0) / 1.8;
     }
